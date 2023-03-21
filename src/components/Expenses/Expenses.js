@@ -9,9 +9,10 @@ const Expenses = (props) => {
         return (
           <ExpenseItem
             key={item.id}
-            title={item.title}
-            amount={item.amount}
-            date={item.date}
+            // title={item.title}
+            // amount={item.amount}
+            // date={item.date}
+            item={item}
           ></ExpenseItem>
         );
       })}
